@@ -8,4 +8,72 @@ body {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
+    color: #000;
+    background-color: #008000;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 75vh;
+    background-image: url(./img/restaurante-el-Imparcial1500x610.jpg);
+    color: #fff;
+}
+
+.titulo > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+    box-shadow: #000 0 0 10px;
+    background-color: #c70000;
+    padding: 25px 0px;
+    width: 100vw;
+}
+
+.wrapper {
+    background-color: #e9e9e9;
+    width: 80vw;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.introduccion {
+    font-size: 1.2em;
+}
+
+.fotos {
+    width: 80vw;
+    display: flex;
+    margin-left: -30px;
+    margin-top: 20px;
+}
+
+.fotos > img {
+    width: 33.33%;
+    height: 250px;
+    object-fit: cover;
+}
+
+h2 {
+    color: #008000;
+    margin: 20px 0;
+    font-size: 1.8em;
+}
+
+li {
+    margin-left: 50px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+    font-size: 0.8em;
 }
